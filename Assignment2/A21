@@ -1,0 +1,33 @@
+/*
+1. Write a typescript program which contains one function named as Maximum.
+ That function accepts array of numbers and returns the largest number 
+from array.
+ Input: 23 89 6 29 56 45 77 32 
+ Putput: Maximum number is 89
+
+*/
+
+function MaxNum(Array : number[])
+{
+var cnt : number = 0;
+var Max : number = 0
+Max = Array[0]
+for(cnt = 1;cnt <Array.length;cnt ++)
+{
+      if(Array[cnt] > Max)
+      {
+            Max = Array[cnt]
+            
+
+      }
+      
+
+}
+console.log("Maximum No is "+Max)
+
+}
+
+
+var Arr : number[] = [23, 89, 6 ,29 ,56, 45, 77, 32 ]
+
+MaxNum(Arr)
